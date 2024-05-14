@@ -1,0 +1,452 @@
+* { margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+ /*header*/
+ header{
+     background-color: white;
+     line-height: 100px;
+     float: left;
+     right: 0;
+     box-shadow: 10px 11px 12px grey;
+     position: fixed;
+     left: 0;
+ }
+ 
+ img{
+     display: inline-block;
+     width: 200px;
+     padding: 5px;
+ }
+
+ /*Schnellzugriff*/
+ #schnellzugriff{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateY(-50%);
+    display: flex;
+     }
+    
+     #schnellzugriff .container{
+         list-style: none;
+         width: 40px;
+         height: 40px;
+         background: rgb(7, 7, 65);
+         border-radius: 50%;
+     }
+    
+    .btn-schnellzugriff{
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border: 4px solid #fff;
+    top:50%;
+    right: 20%;
+    transform: translateY(-50%) rotate(-45deg);
+    border-top: none;
+    border-right: none;
+    background-color: rgb(7, 7, 65);
+    }
+   
+   .container ul li{
+        display:none;
+    }
+   
+   .container span {
+       display: none;
+   }
+   
+   .container span:hover{
+       display: block;
+   }
+  
+/*containerhd*/
+ nav .navhd{
+   display: inline-block;
+    height: 50px;
+     color: blue;
+ }
+
+ .nav{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(7, 7, 65);
+    }
+
+    .containerhd{
+    width: 80%;
+    background-color: rgb(7, 7, 65);
+    margin-right: 10%; 
+    margin-left: 10%;
+    }
+    
+
+/*linke seite*/
+.links{
+    width: 15%;
+    height: 30px;
+    border: 1px;
+    background-color: rgb(7, 7, 65);
+    margin: 1px;
+    float: left;
+   
+}
+
+.containerhd button{
+    width: 5%;
+    height: 15px;
+    border: 0;
+    margin: 15px;
+   color: lightgray;
+    background-color: rgb(7, 7, 65);
+    float: left;
+}
+
+div button span{
+    font-size: smaller;
+}
+
+.btn-contrast img{
+    width: 15%;
+    height: 0.4em;
+    width: auto;
+    color: lightgray;
+}
+.links button:hover{
+    color: white;
+    transition:color 0.5s, background-color 0.5s;
+}
+
+/*rechte seite*/
+.rechts{
+    width: 35%;
+    height: 30px;
+    border: 1px;
+    background-color: rgb(7, 7, 65);
+    margin: 5px;
+    float: right;
+}
+
+.rechts li{
+    height: auto;
+    margin-top: -35px;
+    float: left;
+    padding: 5px;
+    color: lightgray;
+}
+.rechts div ul li{
+    width: 10%;
+    height: 5px;
+    border: 0;
+    color: white;
+    margin: 10px;
+    display: inline-block;
+}
+
+.rechts li:hover{
+    color: white;
+    transition:color 0.5s, background-color 0.5s;
+}
+
+.containerhd div a img{
+    width: 30px;
+   height: auto;
+    float: left;
+}
+
+li{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  
+}
+
+
+/*containerhd2*/
+
+.containerhd2 .navbar-brand{
+    float: left;
+    margin: 1em; 
+    margin-left: 10%; 
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+.containerhd2 .containerhd3{
+float: right;
+width: 65%;
+padding: 0;
+margin-right: 10%; 
+}
+  nav ul li a{
+    float: right;
+   padding: 0.5em;
+}
+  
+nav ul li a:hover{
+    background-color: rgb(231, 230, 230);
+}
+  .item{
+    height: 140px;
+
+  }
+  
+  nav ul {
+    list-style: none;
+    position: relative;
+    text-align: left;
+  }
+  
+  nav li {
+    display: inline-block;
+    text-decoration: none;
+    display: block;
+    align-items: stretch;
+  }
+  
+  .total {
+    position: absolute;
+    width: 950px;
+    height: auto;
+    line-height: 2em;
+    display: none;
+    background-color: rgb(231, 230, 230);
+    color:  rgb(7, 7, 65);
+    margin: 6em;
+
+  }
+
+  .total li:hover{
+      color: red;
+      background-color: white;
+  }
+  
+  nav li:hover .total {
+    display: block;
+    text-align: left;
+  }
+  
+  .total li {
+    display: block;
+    padding: 0;
+    text-align: left;
+  }
+
+  .single1 {
+   width: 21.29%;
+ /*   height: auto;*/
+  float: left;
+  align-items: stretch;
+  justify-content: space-around;
+  border: 0.1em solid gray;
+  padding: 1em;
+  }
+  .single2 {
+    width: 21.29%;
+    float: left;
+    padding: 1em;
+    border: 0.1em solid gray;
+  }/*22.205%;*/
+.single3 {
+    width: 29.625%;
+    float: left;
+    padding: 1em;
+    border: 0.1em solid gray;
+  }
+  .single4 {
+    width: 16.295%;
+    float: left;
+    padding: 1em;
+    border: 0.1em solid gray;
+  }
+  .single5 {
+    width: 16.295%;
+    float: left;
+    padding: 1em;
+    border: 0.1em solid gray;
+  }/*17.22%*/
+  
+  span ul li{
+    justify-content: space-around;
+    align-items: stretch;
+  }
+
+ /*main*/
+ main{
+     width: 80%;
+     box-sizing: border-box;
+     padding: 0.5em;
+     background-color: white;
+     margin-bottom: 30%;
+     padding-top: 20%;
+     margin-right: 10%; 
+     margin-left: 10%;
+   }
+ 
+.game{
+  background-color: lightgrey;
+  width: 350px;
+  height: 350px; 
+  margin-left: 35%;
+}
+
+.game div{
+  width: 49px;
+  height: 49px;
+  margin: 0.5px;
+  background-color: white;
+  float: left; 
+}
+
+.gewonnen{  
+  font-size: xx-large;
+  text-align: center;
+  color: green;
+}
+.verloren{
+  font-size: xx-large;
+  text-align: center;
+  color: red;
+}
+
+.game .zelle{
+  background-color: green;
+}
+
+.game .doppel{
+  background-image: url(images/symbols\ \(1\).svg);
+  background-size: 1800%;
+  background-position: -600%;
+}
+.game .doppel2{
+  background-image: url(images/symbols\ \(1\).svg);
+  background-size: 1800%;
+  background-position: -700%;
+}
+.game .prechts{
+  background-image: url(images/symbols\ \(1\).svg);
+  background-size: 1800%;
+  background-position: -200%;
+}
+.game .pLinks{
+  background-image: url(images/symbols\ \(1\).svg);
+  background-size: 1800%;
+  background-position: -400%;
+}
+.game .pOben{
+  background-image: url(images/symbols\ \(1\).svg);
+  background-size: 1800%;
+  background-position: -300%;
+}
+.game .pUnten{
+  background-image: url(images/symbols\ \(1\).svg);
+  background-size: 1800%;
+  background-position: -500%;
+}
+
+.atome{
+  background-image: url(images/symbols\ \(1\).svg);
+  background-size: 1800%; 
+  background-position: -100%;
+}
+
+.spiel{
+  width: 90px;
+  height: 40px;
+  background-color:#1d3866;
+  color:white ;
+}
+
+#btn{
+  margin-left: 43%;
+  margin-bottom: 50px;
+}
+
+ .bild img{
+    float: left;
+    border-radius: 50%;
+  }
+
+h1
+{   
+    font-size: 20px;
+    float: left;
+    padding-left: 50px;
+    color: black;
+}
+
+ /*footer*/
+ footer{
+ 
+     text-align: center;
+     background-color: rgb(100, 163, 202);
+     bottom: 0;
+ }
+ 
+ .containerft li{
+     display: inline-block;
+     background-color: rgb(34, 32, 32);
+     color: lightgray;
+     font-size: larger;
+   padding-bottom: 20px;
+   padding-top: 20px;
+   width: 80%;
+ }
+ 
+ .containerft li:hover{
+     color:white;
+     transition:color 0.5s, background-color 0.5s;
+ }
+ .container{
+    display: flex;
+    width: 80%;
+    background-color: rgb(100, 163, 202);
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+    
+    .standort{
+    width: 100%;
+   border: 1px;
+    background-color: rgb(100, 163, 202);
+    margin: 10px;
+    text-align: center;
+    
+    margin: 10px;
+     float: left;
+   
+     line-height: 0;
+    padding: 0;
+    }
+
+    .container div{
+     margin: 10px;
+    line-height: 30px;
+    text-align: center;
+    }
+
+h2{
+    width: 80%;
+    padding-top: 40px;
+  text-align: center;
+  background-color: rgb(100, 163, 202);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+ 
+ .standort img{
+     width: 50px;
+     height: auto;
+ 
+ }
+
+  .containerft ul li{
+      width: 25%;
+      float: left;
+  }
+ 
